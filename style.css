@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #222;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #0f172a;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.logo {
+    font-size: 28px;
+}
+
+/* HERO */
+.hero {
+    height: 80vh;
+    background: linear-gradient(to right, #020617, #0f172a);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 15px 30px;
+    border: none;
+    background: #38bdf8;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* SECTIONS */
+.section-title {
+    text-align: center;
+    margin: 60px 0 30px;
+    font-size: 36px;
+}
+
+/* CATEGORIES */
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0 50px;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    font-size: 22px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* PRODUCTS */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 0 50px;
+}
+
+.product {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* INFO */
+.info {
+    background: #0f172a;
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
+
+/* TESTIMONIALS */
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 50px;
+}
+
+.testimonial {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    font-style: italic;
+}
+
+/* NEWSLETTER */
+.newsletter {
+    text-align: center;
+    padding: 60px;
+    background: #38bdf8;
+}
+
+.newsletter input {
+    padding: 15px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #0f172a;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    background: #020617;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
